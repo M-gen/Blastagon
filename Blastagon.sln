@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blastagon", "Blastagon\Blastagon.csproj", "{2D79AD58-62F7-4216-ABBD-63586E35A854}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7BC03226-1DAD-4278-B4F3-11B8A66ED6ED} = {7BC03226-1DAD-4278-B4F3-11B8A66ED6ED}
+		{2D3F11E2-1B76-433F-A1C0-380C9AAD61DD} = {2D3F11E2-1B76-433F-A1C0-380C9AAD61DD}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginPNGFileConector", "PluginPNGFileConector\PluginPNGFileConector.csproj", "{2D3F11E2-1B76-433F-A1C0-380C9AAD61DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginJPEGFileConector", "PluginJPEGFileConector\PluginJPEGFileConector.csproj", "{7BC03226-1DAD-4278-B4F3-11B8A66ED6ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlastagonPluginInterface", "BlastagonPluginInterface\BlastagonPluginInterface.csproj", "{24F77A79-209A-4E4B-BB5A-7C1948E27963}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D79AD58-62F7-4216-ABBD-63586E35A854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D79AD58-62F7-4216-ABBD-63586E35A854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D79AD58-62F7-4216-ABBD-63586E35A854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D79AD58-62F7-4216-ABBD-63586E35A854}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D3F11E2-1B76-433F-A1C0-380C9AAD61DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D3F11E2-1B76-433F-A1C0-380C9AAD61DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D3F11E2-1B76-433F-A1C0-380C9AAD61DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D3F11E2-1B76-433F-A1C0-380C9AAD61DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BC03226-1DAD-4278-B4F3-11B8A66ED6ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BC03226-1DAD-4278-B4F3-11B8A66ED6ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BC03226-1DAD-4278-B4F3-11B8A66ED6ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BC03226-1DAD-4278-B4F3-11B8A66ED6ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24F77A79-209A-4E4B-BB5A-7C1948E27963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24F77A79-209A-4E4B-BB5A-7C1948E27963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24F77A79-209A-4E4B-BB5A-7C1948E27963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24F77A79-209A-4E4B-BB5A-7C1948E27963}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {838DE394-8A27-4B77-8609-36FB03010A8D}
+	EndGlobalSection
+EndGlobal
